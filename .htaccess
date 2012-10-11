@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+
+  # Adaptive-Images-wThuc-------------------------------------------------------------------------------
+
+  RewriteCond %{REQUEST_URI} !assets
+
+  RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images-wt.php
+
+  # END Adaptive-Images -------------------------------------------------------------------------------
+</IfModule>
