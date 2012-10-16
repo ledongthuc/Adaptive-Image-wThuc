@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping-rules>
+    <rule retina="true">
+            <file-pattern suffix_name="_retina" />
+    </rule>
+    
+    <!-- 
+    <rule retina="true" pixed-ratio="">
+            <file-pattern name="" prefix_name="" suffix_name="" regex=""
+            			  extension="" prefix_extension="" suffix_extension="" />
+    </rule> 
+    -->
+</mapping-rules>
